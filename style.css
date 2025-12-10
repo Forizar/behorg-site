@@ -1,0 +1,92 @@
+body {
+  background: #421A45;
+  color: #eaeaea;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.logo {
+  max-width: 200px;      /* limits the width */
+  height: auto;          /* keeps aspect ratio */
+  margin-bottom: 20px;   /* space between image and title */
+}
+
+header {
+  padding: 60px 20px 40px 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  color: #eaeaea;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #eaeaea;
+}
+
+header d1 {
+  font-size: 0.8rem;
+  color: #eaeaea;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eaeaea;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #421A45;
+  padding: 20px;
+  border: 2px solid #eaeaea;
+  width: 250px;
+  border-radius: 6px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px #C32AFF;
+}
+
+input {
+  background: #421A45;
+  border: 2px solid #eaeaea;
+  color: #eaeaea;
+  padding: 10px 12px;
+  margin-top: 20px;
+  width: 260px;
+  text-align: center;
+  font-family: inherit;
+}
+
+input:focus {
+  border-color: #eaeaea;
+  outline: none;
+}
+
+#authMessage {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #eaeaea;
+}
